@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only solid>
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Product Scan
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2" style="background-color:#469BEB;">
+  <form id="productScan-form2">
+    <button id="productScan-button3" ion-button color="dark" block on-click="goToBarcodeScanner()">
+      Scanner
+    </button>
+    <h3 id="productScan-heading1" style="color:#000000;text-align:center;">
+      or
+    </h3>
+    <ion-searchbar placeholder="Search For the Product" name="" id="productScan-search1"></ion-searchbar>
+  </form>
+  <button id="productScan-button2" ion-button color="dark" block style="border-radius:-1px -1px -1px -1px;">
+    <ion-icon name="add-circle"></ion-icon>
+  </button>
+  <ion-list id="productScan-list1">
+    <ion-item color="none" id="productScan-list-item4">
+      Lays | Rs.15
+    </ion-item>
+    <ion-item color="none" id="productScan-list-item5">
+      Hamam | Rs.20
+    </ion-item>
+    <ion-item color="none" id="productScan-list-item6">
+      Dairy Milk | Rs.12
+    </ion-item>
+  </ion-list>
+  <ion-list id="productScan-list2">
+    <ion-item color="none" id="productScan-list-item8">
+      Magnum | Rs.45
+    </ion-item>
+  </ion-list>
+</ion-content>
